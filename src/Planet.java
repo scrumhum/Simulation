@@ -7,12 +7,20 @@ public class Planet {
     private double velY;
     private String name;
 
-    public Planet(){
+    public Planet(double mass, double radius, double x, double y, double velX, double velY, String name){
+        this.mass = mass;
+        this.radius = radius;
+        this.x = x;
+        this.y = y;
 
+        this.velX = velX;
+        this.velY = velY;
+        this.name = name;
     }
 
-    public radius getGetRadius() {
-        return getRadius;
+    public <radius> radius getGetRadius() {
+        radius getRadius = null;
+        return null;
     }
 
 
