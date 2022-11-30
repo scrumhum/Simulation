@@ -19,3 +19,79 @@ From the plan we created in Part 2, implement the classes and methods necessary 
 
 Part 4 - Turn In
 Do the same thing you do every week!
+
+
+noun:
+sun/star
+planets
+solar system
+	mass-double
+	radius/size-double
+	velocity-double
+	gravity-double
+	distance
+	simulation
+	postition(x&y)-double
+
+verb:
+	create
+	movePlanets
+	addPlanets
+	showPlanets
+	showDist
+	getPos
+	getVel
+	showPos
+	showVel
+
+Sun static class:
+radius
+mass
+x & y
+private name
+
+
+Planet class:
+radius
+mass
+x
+y
+velX
+velY
+name
+toString-x & Y, name
+getx
+gety
+move(x,y)
+
+Solar System class:
+AL<Planet>
+
+new sun : the sun
+
+public movePlanets()
+
+public addPlanet(Sun)
+
+public addSun(Planet)
+
+
+public void showVel(){
+
+    }
+
+    public void movePlanets (){
+
+    }
+
+    public void addPlanets (){
+
+    }
+
+    public void showDist(){
+
+    }
+
+    public void getPos(){
+
+    }

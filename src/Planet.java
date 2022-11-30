@@ -1,11 +1,12 @@
 public class Planet {
-    private double mass;
+    private String name;
     private double radius;
+    private double mass;
     private double x;
     private double y;
     private double velX;
     private double velY;
-    private String name;
+
 
     public Planet(double mass, double radius, double x, double y, double velX, double velY, String name){
         this.mass = mass;
@@ -18,30 +19,40 @@ public class Planet {
         this.name = name;
     }
 
-    public <radius> radius getGetRadius() {
-        radius getRadius = null;
-        return null;
+    public void moveTo(double newX, double newY){
+        this.x = newX;
+        this.y = newY;
     }
 
+    public void setVelX(double newVelX){
+        this.velX = newVelX;
+    }
+    public void setVelY(double newVelY){
+        this.velY = newVelY;
+    }
 
-    public void movePlanets ()
+    public double getPosX() {
+        return this.x;
+    }
 
-    public void addPlanets ()
+    public double getPosY() {
+        return this.y;
+    }
 
-    public void showDist()
+    public double getMass() {
+        return this.mass;
+    }
+    public double getVelX(){
+        return this.velX;
 
-    public void getPos()
+    }
+    public double getVelY(){
+        return this.velY;
 
-    public void getVel()
-
-    public void showVel()
-
-
-
-
+    }
 
     @Override
     public String toString() {
-        return super.toString();
+        return String.format("%s: x:%f, y:%f", this.name,this.x, this.y);
     }
 }
